@@ -3905,7 +3905,7 @@ local selectedAura = ""
 -- Get all pets and auras
 local allPets, allAuras = getAllPetsAndAuras()
 
-pets:AddLabel("=== Buy pets and auras ===")
+pets:AddLabel("/// Pets And Aura Dropdowns")
 
 -- Pet dropdown
 local petDropdown = pets:AddDropdown("Select pet", function(text)
@@ -3982,7 +3982,7 @@ auraDropdown:Add("Muscle King (Unique)")
 auraDropdown:Add("Entropic Blast (Unique)")
 auraDropdown:Add("Eternal Megastrike (Unique)")
 
-pets:AddLabel("=== System to buys===")
+pets:AddLabel("/// Auto Buy Toggles")
 
 -- Auto buy pet toggle
 pets:AddSwitch("Auto Buy Pet", function(bool)
@@ -4067,7 +4067,7 @@ end)
 -- Show the pets tab
 pets:Show()
 
-pets:AddLabel("=== buy ultimates ===")
+pets:AddLabel("/// Upgrade Ultimates")
 
 -- Ultimate options
 local ultimateOptions = {
